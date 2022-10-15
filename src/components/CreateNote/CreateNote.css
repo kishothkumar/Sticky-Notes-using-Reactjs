@@ -1,0 +1,35 @@
+.create-note{
+    position: relative;
+    width: 480px;
+    margin: 30px auto 20px auto;
+    background: white;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(40, 33, 33);
+}
+
+.create-note input,
+.create-note textarea{
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2rem;
+    font-family: inherit;
+    resize: none;
+}
+
+.create-note button{
+    background: yellow;
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    color: red;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 1px 3px rgb(31, 28, 28);
+}
